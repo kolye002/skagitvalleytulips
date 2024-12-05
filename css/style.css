@@ -1,0 +1,347 @@
+body {
+	background: #F1E4E4;
+}
+
+.container {
+	width: 100vw;
+	height: auto;
+}
+
+section {
+	position: relative;
+}
+
+h1 {
+	font-family: Cormorant Garamond, serif;
+/*	font-style: light;*/
+	font-weight: 400;
+	font-size: 10em;
+	color: white;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+h2 {
+	font-family: Cormorant Garamond;
+	font-weight: 400;
+	font-size: 50px;
+	color: black;
+	position: relative;
+}
+
+h3{
+	font-family: Manrope;
+	font-weight: 300;
+	font-size: 3em;
+	color: white;
+	position: relative;
+	text-align: center;
+	margin: 40px;
+}
+
+h5{
+	font-family:Cormorant Garamond, serif;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+p {
+	font-family: Manrope;
+	font-weight: 300;
+	font-size: 1em;
+	color: black;
+	line-height: 1.7em;
+}
+
+p2 {
+	font-family: manrope;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.7em;
+}
+
+.navigation {
+	width: 100vw;
+	height: 60px;
+	background: #F1E4E4;
+	position: fixed;
+	z-index: 1;
+}
+
+ul {
+	list-style: none;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 1.3em;
+}
+
+li {
+	float: right;
+	margin-left: 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.home_btn {
+	display: block;
+	width: 136px;
+	height: 136px;
+	background: url(../images/STFLogo.png);
+	background-size: 100%;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+
+
+/* HOME PAGE CSS */
+
+.home {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../images/mainscreen.jpg");
+	background-size: cover;
+}
+
+.overlay {
+	width: 100vw;
+	height: 100vh;
+	background: #F8C8C7;
+	opacity: .5;
+	position: absolute;
+}
+
+.title_box {
+	width: 100vw;
+	height: auto;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.ticketbutton {
+		width: 296px;
+		height: 84px;
+		font-size: 1.5em;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		background: white;
+}
+
+/* BLOOM INFORMATION */
+.one {
+	width: 1500px;
+	height: 50vh;
+	background: #F1E4E4;
+	margin: auto;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.one_left {
+	width: 700px;
+	float: left;
+	margin-right: 100px;
+}
+
+.one_right {
+	width: 700px;
+	border-radius: 50px;
+	float: left;
+}
+
+.bloombutton {
+	width: 296px;
+	height: 104px;
+	font-size: 1.5em;
+	background: white;
+	margin-top: 20px;
+}
+
+/*LARGE IMAGE*/
+.two {
+	width: 1500px;
+	height: 843px;
+	position: relative;
+	margin: auto;	
+	margin-top: 100px;
+}
+
+.largeimage {
+	width: 1500px;	
+	height: auto;
+	border-radius: 50px;
+	position: absolute;
+}
+
+/*TULIP GARDENS*/
+.three {
+	width: 1500px;
+	height: 500px;
+	margin: auto;
+	margin-left: 100px;
+	line-height: 5em;
+	
+}
+
+.tulipgardens {
+	width: 1500px;
+	height: auto;
+	margin: auto;
+	position: absolute;
+	float: left;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.image7 {
+	width: 1500px;
+	height: auto;
+	margin: auto;
+	margin-top: 30px;
+	position: relative;
+}
+
+/*PHOTO GALLERY*/
+
+.four {
+	width: 100%;
+	height: 500px;
+	margin: auto;
+}
+
+.gallery {
+	width: 1000px;
+	margin-left: 100px;
+	position: relative;
+	margin-bottom: 20px;	
+}
+
+.photos {
+	width: 100vw;
+	height: 478px;
+	overflow-x: scroll;
+	position: relative;
+}
+
+.photo_box {
+	width: 2242px;
+	height: 478px;
+}
+
+.image3 {
+	width: 25vw;
+	height: 478px;
+	margin-right: 20px;
+	background-image: url("../images/Image3.jpg");
+	background-size: cover;
+	float: left;
+}
+
+.image4 {
+	width: 25vw;
+	height: 478px;
+	margin-right: 20px;
+	background-image: url("../images/Image4.jpg");
+	background-size: cover;
+	float: left;
+}
+
+.image5 {
+	width: 25vw;
+	height: 478px;
+	margin-right: 20px;
+	background-image: url("../images/Image5.jpg");
+	background-size: cover;
+	float: left;
+}
+
+.image6 {
+	width: 25vw;
+	height: 478px;
+	margin-right: 20px;
+	background-image: url("../images/Image6.jpg");
+	background-size: cover;
+	float: left;
+}
+
+.image8 {
+	width: 25vw;
+	height: 478px;
+	background-image: url("../images/Image8.jpg");
+	background-size: cover;
+	float: left;
+}
+
+/*FOOTER*/
+.footer {
+	width: 100vw;
+	height: 300px;
+	background: #F8C8C7;
+	margin-bottom: 0;
+	margin-top: 100px;
+}
+
+.footer_box {
+	width: 1500px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 20px;
+}
+
+.logo {
+	display: block;
+	width: 90px;
+	height: 90px;
+	background: url(../images/STFLogo.png);
+	background-size: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.copyright {
+	width: 200px;
+	float: left;
+	position: relative;
+
+}
+
+.copyright p2 {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	text-align: center;
+}
+
+.contact {
+	float: left;
+	position: absolute;
+	width: 300px;
+	left: 250px;
+}
+
+.info {
+	float: left;
+	position: absolute;
+	width: 300px;
+	left: 600px;
+}
+
+.about {
+	float: left;
+	position: absolute;
+	width: 200px;
+	left: 850px;
+}
+
+
+
